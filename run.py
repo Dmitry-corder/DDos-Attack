@@ -9,5 +9,6 @@ print("""
 """)  
 os.system("chmod +x xerxes.c")
 os.system("gcc xerxes.c -o xerxes")
-a = input("\n Enter website address eg : www.fakesite.com \n Website Name : ")
+a = input("\n Enter website address eg : https://l-club.biz \n Website Name : ")
 os.system("./xerxes "+a+" 80")
+
